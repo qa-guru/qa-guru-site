@@ -7,11 +7,13 @@ import styles from "./Layout.module.scss";
 
 const Layout: React.FC = () => {
   return (
-    <Box className={styles.layout}>
+    <>
       <Header />
-      <Outlet />
+      <Box className={styles.layout}>
+        <Outlet />
+      </Box>
       <Footer />
-    </Box>
+    </>
   );
 };
 
