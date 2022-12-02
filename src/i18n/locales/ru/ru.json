@@ -1,1 +1,7 @@
-{}
+{
+  "header.course": "Курсы",
+  "header.program": "Программа",
+  "header.feedback": "Отзывы",
+  "header.price": "Цена",
+  "header.personal": "Личный кабинет"
+}

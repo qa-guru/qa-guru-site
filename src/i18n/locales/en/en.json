@@ -1,1 +1,7 @@
-{}
+{
+  "header.course": "Course",
+  "header.program": "Program",
+  "header.feedback": "Feedback",
+  "header.price": "Price",
+  "header.personal": "Personal Area"
+}
