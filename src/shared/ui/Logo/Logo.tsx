@@ -8,7 +8,7 @@ const Logo: React.FC = () => {
       <Box
         sx={{
           height: { md: "31px" },
-          width: { xs: "100px", md: "183px" },
+          width: { xs: "90px", md: "183px" },
           justifyContent: "space-between",
         }}
       >

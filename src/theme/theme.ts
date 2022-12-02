@@ -1,6 +1,15 @@
 import { createTheme } from "@mui/material/styles";
 
 const theme = createTheme({
+  breakpoints: {
+    values: {
+      xs: 0,
+      sm: 600,
+      md: 900,
+      lg: 1200,
+      xl: 1536,
+    },
+  },
   palette: {
     primary: {
       main: "#000000",
@@ -9,11 +18,14 @@ const theme = createTheme({
       main: "#2ccca6",
     },
   },
+  typography: {
+    fontFamily: "Montserrat, sans-serif",
+  },
   components: {
     MuiButton: {
       styleOverrides: {
         root: {
-          borderRadius: "100px",
+          fontFamily: "Montserrat, sans-serif",
         },
       },
     },

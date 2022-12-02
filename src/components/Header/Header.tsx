@@ -25,11 +25,21 @@ const Header = () => {
     setAnchorElNav(event.currentTarget);
   };
 
-  const pages = ["Курсы", "Программа", "Отзывы", "Цена"];
+  const pages = [
+    t("header.course"),
+    t("header.program"),
+    t("header.feedback"),
+    t("header.price"),
+  ];
 
   return (
     <AppBar color="inherit" position="static">
-      <Container maxWidth="xl">
+      <Container
+        sx={{
+          padding: { xs: "0" },
+        }}
+        maxWidth="xl"
+      >
         <Box
           sx={{
             display: "flex",
@@ -56,13 +66,13 @@ const Header = () => {
           </Box>
           <Box
             sx={{
-              display: { md: "flex", xs: "none" },
+              display: "flex",
               justifyContent: "space-between",
             }}
           >
             <LocalSelector />
             <Button variant="text" endIcon={<ArrowRightAltIcon />}>
-              Личный кабинет
+              {t("header.personal")}
             </Button>
           </Box>
           <Box sx={{ display: { xs: "flex", md: "none" } }}>

@@ -1,7 +1,9 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { Button } from "@mui/material";
+import { Button, IconButton, SvgIcon } from "@mui/material";
 import Box from "@mui/material/Box";
+import { ReactComponent as EnglishIcon } from "../../../assets/icons/english.svg";
+import { ReactComponent as RussiaIcon } from "../../../assets/icons/russia.svg";
 
 const LocalSelector = () => {
   const { i18n } = useTranslation();
@@ -15,12 +17,16 @@ const LocalSelector = () => {
     <Box
       sx={{ display: "grid", gap: 0.5, gridTemplateColumns: "repeat(2, 1fr)" }}
     >
-      <Button variant="outlined" onClick={() => changeLanguage("en")}>
-        {t("english")}
-      </Button>
-      <Button variant="outlined" onClick={() => changeLanguage("ru")}>
-        {t("russian")}
-      </Button>
+      <IconButton onClick={() => changeLanguage("en")}>
+        <SvgIcon>
+          <EnglishIcon />
+        </SvgIcon>
+      </IconButton>
+      <IconButton onClick={() => changeLanguage("ru")}>
+        <SvgIcon>
+          <RussiaIcon />
+        </SvgIcon>
+      </IconButton>
     </Box>
   );
 };
