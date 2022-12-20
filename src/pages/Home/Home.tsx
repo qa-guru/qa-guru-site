@@ -21,7 +21,7 @@ const ContactForm = lazy(
   () => import("../../components/ContactForm/ContactForm")
 );
 
-const Home: React.FC = (props) => {
+const Home: React.FC = () => {
   return (
     <>
       <Promo />

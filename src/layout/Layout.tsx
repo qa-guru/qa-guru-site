@@ -9,14 +9,18 @@ import { CssBaseline, ThemeProvider } from "@mui/material";
 
 const Layout: React.FC = () => {
   return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
-      <Header />
-      <Box className={styles.layout}>
-        <Outlet />
-      </Box>
-      <Footer />
-    </ThemeProvider>
+    <div className={styles.page}>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        <Header />
+        <Box className={styles.layout}>
+          <Outlet />
+        </Box>
+        <div className={styles.footer}>
+          <Footer />
+        </div>
+      </ThemeProvider>
+    </div>
   );
 };
 
