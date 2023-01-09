@@ -4,14 +4,36 @@
   "header.feedback": "Feedback",
   "header.price": "Price",
   "header.personal": "Personal Account",
-  "footer.questions": "Have questions? ",
-  "footer.feedback": "Write here",
-  "footer.chat": "@qa_guru_chat",
+  "promo.head": "Course",
+  "promo.title": "Test Automation Java Advanced",
+  "promo.points":
+    [
+      "2 months online learning",
+      "2 times a week at 8:00 pm GMT",
+      "from 55 000 RUB"
+    ],
+  "promo.button": "Start learning",
+  "whom.title": "Who is our course for?",
+    "whom.points": 
+    [
+      {
+        "title": "For QA Automation Engineer with at least 1 year experience",
+        "description": "You will need knowledge of Java Core, basic knowledge of Docker, knowledge of relational databases and SQL. And also the presence of MacOS to attend two classes on native testing of iOS."
+      },
+      {
+        "title": "For those who want to gain advanced knowledge of automation in Java",
+        "description": "You will set up custom templates for tests and reporting and create your own. You will gain knowledge of parallelization and native testing of Android iOS."
+      },
+      {
+        "title": "Improve skills, systematize knowledge and enter the community",
+        "description": "You will master the current stack, improve and systematize your knowledge, enter the community of experts in the field who are keen on solving complex issues and sharing their experience."
+      }
+    ],
   "faq.objects": 
   [
     {
       "question": "How are classes held?", 
-      "answer": "In live mode with teachers on Tuesdays and Fridays at 8 pm Moscow time, class records are posted the next day, we also add timecodes for the records to make it easier for you to review them. Most of the classes have homework.",
+      "answer": "In live mode with teachers on Tuesdays and Fridays at 8:00 pm GMT, class records are posted the next day, we also add timecodes for the records to make it easier for you to review them. Most of the classes have homework.",
       "id": "panel1bh-header",
       "name": "panel1"
     },
@@ -64,5 +86,8 @@
   "form.phone": "Phone",
   "form.email": "Email",
   "form.button": "Submit",
-  "form.accept": "By pressing the button, you allow us to process your personal data and agree to the terms of the offer"
+  "form.accept": "By pressing the button, you allow us to process your personal data and agree to the terms of the offer",
+  "footer.questions": "Have questions? ",
+  "footer.feedback": "Write here",
+  "footer.chat": "@qa_guru_chat"
 }

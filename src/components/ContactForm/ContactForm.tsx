@@ -85,6 +85,10 @@ const ContactForm: React.FC = () => {
                     height: "40px",
                     backgroundColor: theme.palette.secondary.main,
                     color: theme.palette.primary.main,
+                    "&:hover": {
+                      backgroundColor: theme.palette.secondary.main,
+                      color: theme.palette.primary.main,
+                    }
                   }}>
                     {t("form.button")}
                 </Button>
