@@ -10,7 +10,7 @@ export default function Footer() {
   return (
     <Container
       sx={{
-        padding: { xs: "0" },
+        padding: { xs: "0" }
       }}
       maxWidth="xl"
     >

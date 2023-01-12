@@ -11,7 +11,7 @@ export interface FormValues {
   phone: string
 };
 
-const ContactForm: React.FC = () => {
+const ContactForm: React.FC = (props) => {
 
   const { control } = useForm<FormValues>();
 
