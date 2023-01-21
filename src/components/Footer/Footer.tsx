@@ -4,25 +4,24 @@ import { useTranslation } from "react-i18next";
 import Logo from "../../shared/ui/Logo/Logo";
 
 export default function Footer() {
-
   const { t } = useTranslation();
 
   return (
     <Container
       sx={{
-        padding: { xs: "0" }
+        padding: { xs: "0" },
       }}
       maxWidth="xl"
     >
-      <Grid 
+      <Grid
         sx={{
           display: "flex",
-          flexDirection: { 
+          flexDirection: {
             xs: "column",
             sm: "row",
             md: "row",
             lg: "row",
-            xl: "row"
+            xl: "row",
           },
           justifyContent: "space-between",
           alignItems: "center",
@@ -30,18 +29,20 @@ export default function Footer() {
           maxWidth: "100%",
           padding: "2vw",
           margin: 0,
-        }}>
+        }}
+      >
         <Grid>
-          <Box 
+          <Box
             sx={{
-              marginBottom: { 
+              marginBottom: {
                 xs: "10px",
                 sm: 0,
                 md: 0,
                 lg: 0,
-                xl: 0
-              }
-            }}>
+                xl: 0,
+              },
+            }}
+          >
             <Logo />
           </Box>
         </Grid>
@@ -51,21 +52,22 @@ export default function Footer() {
               {t("footer.questions")}
             </Typography>
           </Box>
-          <Box 
+          <Box
             sx={{
-              marginBottom: { 
+              marginBottom: {
                 xs: "20px",
                 sm: 0,
                 md: 0,
                 lg: 0,
-                xl: 0
-              }
-            }}>
+                xl: 0,
+              },
+            }}
+          >
             <Typography variant="body2" color="text.secondary" align="center">
               {t("footer.feedback")}
-            <Link color="inherit" href="#">
-              {t("footer.chat")}
-            </Link>
+              <Link color="inherit" href="#">
+                {t("footer.chat")}
+              </Link>
             </Typography>
           </Box>
         </Grid>
@@ -81,5 +83,3 @@ export default function Footer() {
     </Container>
   );
 }
-
-
