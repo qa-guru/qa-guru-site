@@ -5,18 +5,33 @@ import Footer from "../components/Footer/Footer";
 import { Outlet } from "react-router-dom";
 import theme from "../theme/theme";
 import styles from "./Layout.module.scss";
-import { CssBaseline, ThemeProvider } from "@mui/material";
+import { Container, CssBaseline, ThemeProvider } from "@mui/material";
 
 const Layout: React.FC = () => {
   return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
-      <Header />
-      <Box className={styles.layout}>
-        <Outlet />
-      </Box>
-      <Footer />
-    </ThemeProvider>
+    <Box
+     sx={{
+       backgroundColor: "#F9F9F9"
+     }}>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        <Header />
+        <Box 
+          sx={{
+            marginLeft: "auto",
+            marginRight: "auto"
+          }}>
+          <Outlet />
+        </Box>
+        <Box
+          sx={{
+            width: "100%",
+            backgroundColor: "white"
+          }}>
+          <Footer />
+        </Box>
+      </ThemeProvider>
+    </Box>
   );
 };
 

@@ -26,6 +26,7 @@ const theme = createTheme({
       styleOverrides: {
         root: {
           fontFamily: "Montserrat, sans-serif",
+          texttransform: "none",
         },
       },
     },

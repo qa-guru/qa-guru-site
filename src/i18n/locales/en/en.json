@@ -3,5 +3,91 @@
   "header.program": "Program",
   "header.feedback": "Feedback",
   "header.price": "Price",
-  "header.personal": "Personal Area"
+  "header.personal": "Personal Account",
+  "promo.head": "Course",
+  "promo.title": "Test Automation Java Advanced",
+  "promo.points":
+    [
+      "2 months online learning",
+      "2 times a week at 8:00 pm GMT",
+      "from 55 000 RUB"
+    ],
+  "promo.button": "Start learning",
+  "whom.title": "Who is our course for?",
+    "whom.points": 
+    [
+      {
+        "title": "For QA Automation Engineer with at least 1 year experience",
+        "description": "You will need knowledge of Java Core, basic knowledge of Docker, knowledge of relational databases and SQL. And also the presence of MacOS to attend two classes on native testing of iOS."
+      },
+      {
+        "title": "For those who want to gain advanced knowledge of automation in Java",
+        "description": "You will set up custom templates for tests and reporting and create your own. You will gain knowledge of parallelization and native testing of Android iOS."
+      },
+      {
+        "title": "Improve skills, systematize knowledge and enter the community",
+        "description": "You will master the current stack, improve and systematize your knowledge, enter the community of experts in the field who are keen on solving complex issues and sharing their experience."
+      }
+    ],
+  "faq.objects": 
+  [
+    {
+      "question": "How are classes held?", 
+      "answer": "In live mode with teachers on Tuesdays and Fridays at 8:00 pm GMT, class records are posted the next day, we also add timecodes for the records to make it easier for you to review them. Most of the classes have homework.",
+      "id": "panel1bh-header",
+      "name": "panel1"
+    },
+    {
+      "question": "What do you need to know/be able to/have to study on the course?", 
+      "answer": "Operating system: Win/Mac/Linux, 8GB RAM, i3 2.8Ghz processor or better. A minimum of 6 free hours per week, 4 of which will be occupied by classes, plus accomplishing Homework. Task completion time  highly depends on the method you choose and your previous experience.",
+      "id": "panel2bh-header",
+      "name": "panel2"
+    },
+    {
+      "question": "Is it necessary to know Java?", 
+      "answer": "No, we will conduct several classes on the basics of Java, the gained knowledge will be enough for you to write a graduation project. The course can be completed without experience in IT.",
+      "id": "panel3bh-header",
+      "name": "panel3"
+    },
+    {
+      "question": "Where can you find reviews?", 
+      "answer": "We usually collect them on our telegram channel. Also you can ask about us within the community.",
+      "id": "panel4bh-header",
+      "name": "panel4"
+    },
+    {
+      "question": "Can I pay in installments?", 
+      "answer": "Yes, we also give installments not through a bank, you pay 50% of the amount before the start of the course and another 50% a month after the start of the course. No interest, no prepayment.",
+      "id": "panel5bh-header",
+      "name": "panel5"
+    },
+    {
+      "question": "Are there any discounts?", 
+      "answer": "Yes, we have discounts for early course booking, and for payment within 24 hours after the introductory lesson. You can find out more about discounts from our support @qa_guru_support.",
+      "id": "panel6bh-header",
+      "name": "panel6"
+    },
+    {
+      "question": "Is it possible to return the money?", 
+      "answer": "Yes, you can return the money at any time of learning, we will deduct the amount proportionally to the past classes, we will also return the rest within 2 days.",
+      "id": "panel7bh-header",
+      "name": "panel7"
+    },
+    {
+      "question": "How to pay", 
+      "answer": "Write our Telegram bot https://t.me/qa_guru_support and all available payment methods will be sent to you.",
+      "id": "panel8bh-header",
+      "name": "panel8"
+    }
+  ],
+  "form.title": "Sign up for an introductory lesson on May 18th, 2022",
+  "form.info": "After filling in the form, you will receive an email with instructions for attending the introductory lesson and a link to the school chat",
+  "form.name": "First and last name",
+  "form.phone": "Phone",
+  "form.email": "Email",
+  "form.button": "Submit",
+  "form.accept": "By pressing the button, you allow us to process your personal data and agree to the terms of the offer",
+  "footer.questions": "Have questions? ",
+  "footer.feedback": "Write here",
+  "footer.chat": "@qa_guru_chat"
 }

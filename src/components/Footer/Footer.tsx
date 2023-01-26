@@ -1,39 +1,85 @@
-import * as React from "react";
-import Box from "@mui/material/Box";
-import Container from "@mui/material/Container";
-import Typography from "@mui/material/Typography";
-import Link from "@mui/material/Link";
-
-function Copyright() {
-  return (
-    <Typography variant="body2" color="text.secondary" align="center">
-      {"Copyright © "}
-      <Link color="inherit" href="https://mui.com/">
-        Your Website
-      </Link>{" "}
-      {new Date().getFullYear()}
-      {"."}
-    </Typography>
-  );
-}
+import React from "react";
+import { Container, Typography, Grid, Box, Link } from "@mui/material";
+import { useTranslation } from "react-i18next";
+import Logo from "../../shared/ui/Logo/Logo";
 
 export default function Footer() {
+
+  const { t } = useTranslation();
+
   return (
-    <Box component="footer" sx={{ bgcolor: "background.paper", py: 6 }}>
-      <Container maxWidth="lg">
-        <Typography variant="h6" align="center" gutterBottom>
-          Hello
-        </Typography>
-        <Typography
-          variant="subtitle1"
-          align="center"
-          color="text.secondary"
-          component="p"
-        >
-          Hello
-        </Typography>
-        <Copyright />
-      </Container>
-    </Box>
+    <Container
+      sx={{
+        padding: { xs: "0" }
+      }}
+      maxWidth="xl"
+    >
+      <Grid 
+        sx={{
+          display: "flex",
+          flexDirection: { 
+            xs: "column",
+            sm: "row",
+            md: "row",
+            lg: "row",
+            xl: "row"
+          },
+          justifyContent: "space-between",
+          alignItems: "center",
+          backgroundColor: "white",
+          maxWidth: "100%",
+          padding: "2vw",
+          margin: 0,
+        }}>
+        <Grid>
+          <Box 
+            sx={{
+              marginBottom: { 
+                xs: "10px",
+                sm: 0,
+                md: 0,
+                lg: 0,
+                xl: 0
+              }
+            }}>
+            <Logo />
+          </Box>
+        </Grid>
+        <Grid>
+          <Box>
+            <Typography variant="body2" color="text.secondary" align="center">
+              {t("footer.questions")}
+            </Typography>
+          </Box>
+          <Box 
+            sx={{
+              marginBottom: { 
+                xs: "20px",
+                sm: 0,
+                md: 0,
+                lg: 0,
+                xl: 0
+              }
+            }}>
+            <Typography variant="body2" color="text.secondary" align="center">
+              {t("footer.feedback")}
+            <Link color="inherit" href="#">
+              {t("footer.chat")}
+            </Link>
+            </Typography>
+          </Box>
+        </Grid>
+        <Grid>
+          <Box>
+            <Typography variant="body2" color="text.secondary">
+              {"© qa.guru"}
+              {new Date().getFullYear()}
+            </Typography>
+          </Box>
+        </Grid>
+      </Grid>
+    </Container>
   );
 }
+
+
