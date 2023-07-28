@@ -1,0 +1,68 @@
+{
+  "pages": [
+    {
+      "Title": "Code",
+      "Description": "text",
+      "Fulltext": "text text text text text text\ntext\ntext\ntext",
+      "Image": "640x480px.png",
+      "icons": [
+        {
+          "title": "Java",
+          "src": "java.svg",
+          "colored": true,
+          "type": "code"
+        },
+        {
+          "title": "Gradle",
+          "src": "gradle.svg",
+          "colored": true,
+          "type": "code"
+        },
+        {
+          "title": "Github",
+          "src": "github.svg",
+          "colored": false,
+          "type": "infrastructure"
+        },
+        {
+          "title": "Jenkins",
+          "src": "jenkins.svg",
+          "colored": false,
+          "type": "infrastructure"
+        }
+      ]
+    },
+    {
+      "Title": "Infrastructure",
+      "Description": "text",
+      "Fulltext": "text text text text text text\ntext\ntext\ntext",
+      "Image": "640x480px.png",
+      "icons": [
+        {
+          "title": "Java",
+          "src": "java.svg",
+          "colored": false,
+          "type": "infrastructure"
+        },
+        {
+          "title": "Gradle",
+          "src": "gradle.svg",
+          "colored": false,
+          "type": "infrastructure"
+        },
+        {
+          "title": "Github",
+          "src": "github.svg",
+          "colored": true,
+          "type": "infrastructure"
+        },
+        {
+          "title": "Jenkins",
+          "src": "jenkins.svg",
+          "colored": true,
+          "type": "infrastructure"
+        }
+      ]
+    }
+  ]
+}
