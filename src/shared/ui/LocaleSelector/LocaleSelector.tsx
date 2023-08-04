@@ -2,8 +2,8 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import { Button, IconButton, SvgIcon } from "@mui/material";
 import Box from "@mui/material/Box";
-import { ReactComponent as EnglishIcon } from "../../../assets/icons/english.svg";
-import { ReactComponent as RussiaIcon } from "../../../assets/icons/russia.svg";
+import { ReactComponent as EnglishIcon } from "../../../assets/iconsPng/english.svg";
+import { ReactComponent as RussiaIcon } from "../../../assets/iconsPng/russia.svg";
 
 const LocalSelector = () => {
   const { i18n } = useTranslation();

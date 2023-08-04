@@ -4,7 +4,7 @@
       "Title": "Code",
       "Description": "text",
       "Fulltext": "text text text text text text\ntext\ntext\ntext",
-      "Image": "640x480px.png",
+      "Image": "codeQA.png",
       "icons": [
         {
           "title": "Java",
@@ -36,7 +36,7 @@
       "Title": "Infrastructure",
       "Description": "text",
       "Fulltext": "text text text text text text\ntext\ntext\ntext",
-      "Image": "640x480px.png",
+      "Image": "infrastructureQA.png",
       "icons": [
         {
           "title": "Java",
