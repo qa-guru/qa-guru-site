@@ -1,14 +1,13 @@
 export const style = {
   fixedIcons: {
-    padding: "20px",
-    backgroundColor: "#E1FF6C",
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",
   },
   centeredIcons: {
-    display: "flex",
-    justifyContent: "center",
+    display: "grid",
+    gridTemplateColumns: "1fr 1fr 1fr 1fr",
+    gridGap: "20px",
   },
   imgMain: {
     margin: "30px 0",

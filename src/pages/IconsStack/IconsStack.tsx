@@ -13,7 +13,7 @@ const IconsStack: React.FC<IDataIconsStack> = ({ pages }) => {
         <div style={style.centeredIcons}>
           {pages[activePage].icons.map((icon, i) => (
             <img
-              src={require(`../../assets/icons/${icon.src}`)}
+              src={require(`./icons/${icon.src}`)}
               alt={icon.title}
               style={{
                 filter: icon.colored ? "none" : "grayscale(100%)",
