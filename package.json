@@ -5,6 +5,7 @@
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
+    "@fullpage/react-fullpage": "^0.1.40",
     "@mui/icons-material": "^5.10.9",
     "@mui/material": "^5.14.2",
     "@testing-library/jest-dom": "^5.16.5",
@@ -19,12 +20,16 @@
     "prettier": "^2.7.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-full-page": "^0.1.12",
     "react-hook-form": "^7.40.0",
     "react-i18next": "^12.0.0",
     "react-intersection-observer": "^9.5.2",
+    "react-parallax": "^3.5.1",
     "react-router-dom": "^6.4.3",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.9",
+    "react-scroll-section": "^3.2.5",
+    "react-scrollspy": "^3.4.3",
     "sass": "^1.56.1",
     "typescript": "^4.8.4",
     "web-vitals": "^2.1.4"
@@ -54,6 +59,7 @@
     ]
   },
   "devDependencies": {
-    "@types/react-scroll": "^1.8.7"
+    "@types/react-scroll": "^1.8.7",
+    "@types/react-scrollspy": "^3.3.5"
   }
 }
