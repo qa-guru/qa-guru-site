@@ -1,65 +1,73 @@
 import React, { useState } from "react";
-import { Card, CardContent, CardMedia, Grid, Typography } from "@mui/material";
+import { Box, Card, CardContent, Grid, Typography } from "@mui/material";
 import ReactFullpage from "@fullpage/react-fullpage";
-import { IDataIconsStack } from "./IconsStack.types";
+import {IDataIconsStack, IIcon} from "./IconsStack.types";
 import { style } from "./styles";
 
 const IconsStack: React.FC<IDataIconsStack> = ({ pages }) => {
-  const [activePage, setActivePage] = useState(0);
+    const [activePage, setActivePage] = useState(0);
 
-  return (
-    <Grid container>
-      <Grid item xs={3} sx={style.fixedIcons}>
-        <div style={style.centeredIcons}>
-          {pages[activePage].icons.map((icon, i) => (
-            <img
-              src={require(`./icons/${icon.src}`)}
-              alt={icon.title}
-              style={{
-                filter: icon.colored ? "none" : "grayscale(100%)",
-              }}
-            />
-          ))}
-        </div>
-      </Grid>
-      <Grid item xs={9}>
-        <ReactFullpage
-          credits="1" // Добавьте это
-          onLeave={(origin, destination, direction) => {
-            setActivePage(destination.index);
-          }}
-          render={({ state, fullpageApi }) => {
-            return (
-              <ReactFullpage.Wrapper>
-                {pages.map((page, index) => (
-                  <div key={index} className="section">
-                    <Card style={style.centeredContent}>
-                      <CardContent>
-                        <Typography variant="h4" component="div">
-                          {page.Title}
-                        </Typography>
-                        <img
-                          style={style.imgMain}
-                          src={require(`../../assets/pagesImg/${page.Image}`)}
-                          alt={page.Title}
-                        />
-                        <Typography variant="body2" color="text.secondary">
-                          {page.Description}
-                        </Typography>
-                        <Typography variant="body2" color="text.secondary">
-                          {page.Fulltext}
-                        </Typography>
-                      </CardContent>
-                    </Card>
-                  </div>
-                ))}
-              </ReactFullpage.Wrapper>
-            );
-          }}
-        />
-      </Grid>
-    </Grid>
-  );
+    // Отдельный компонент для рендера иконок на боковой панели
+    const renderIcons = (icons: IIcon[]) => (
+        <Box sx={style.centeredIcons}>
+            {icons.map((icon, i) => (
+                <Box key={i} style={style.iconWrapper}>
+                    <img
+                        src={require(`./icons/${icon.src}`)}
+                        alt={icon.title}
+                        style={{
+                            filter: icon.colored ? "none" : "grayscale(100%)",
+                        }}
+                    />
+                </Box>
+            ))}
+        </Box>
+    );
+
+    return (
+        <Grid container sx={{ backgroundColor: "black" }}>
+            {/* Боковая панель с иконками */}
+            <Grid item xs={3} sx={style.fixedIcons}>
+                {renderIcons(pages[activePage].icons)}
+            </Grid>
+
+            {/* Основное содержимое с помощью ReactFullpage */}
+            <Grid item xs={9}>
+                <ReactFullpage
+                    credits="1"
+                    onLeave={(origin, destination, direction) => {
+                        setActivePage(destination.index);
+                    }}
+                    render={({ state, fullpageApi }) => (
+                        <ReactFullpage.Wrapper>
+                            {pages.map((page, index) => (
+                                <Box key={index} className="section">
+                                    <Card style={style.centeredContent}>
+                                        <CardContent>
+                                            <Typography variant="h3" component="div">
+                                                {page.Title}
+                                            </Typography>
+                                            <img
+                                                style={style.imgMain}
+                                                src={require(`../../assets/pagesImg/${page.Image}`)}
+                                                alt={page.Title}
+                                            />
+                                            <Typography variant="body2" color="text.secondary">
+                                                {page.Description}
+                                            </Typography>
+                                            <Typography variant="body2" color="text.secondary">
+                                                {page.Fulltext}
+                                            </Typography>
+                                        </CardContent>
+                                    </Card>
+                                </Box>
+                            ))}
+                        </ReactFullpage.Wrapper>
+                    )}
+                />
+            </Grid>
+        </Grid>
+    );
 };
 
 export default IconsStack;

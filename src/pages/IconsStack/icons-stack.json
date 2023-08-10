@@ -4,41 +4,29 @@
       "Title": "Code",
       "Description": "text",
       "Fulltext": "text text text text text text\ntext\ntext\ntext",
-      "Image": "codeQA.png",
+      "Image": "code.png",
       "icons": [
         {
-          "title": "Java",
-          "src": "java.svg",
+          "title": "Appium",
+          "src": "appium.svg",
           "colored": true,
-          "type": "code"
-        },
-        {
-          "title": "Gradle",
-          "src": "gradle.svg",
-          "colored": false,
           "type": "code"
         },
         {
           "title": "Jenkins",
           "src": "jenkins.svg",
-          "colored": true,
+          "colored": false,
           "type": "code"
         },
         {
-          "title": "DockerCompose",
-          "src": "DockerCompose.svg",
+          "title": "Selenoid",
+          "src": "selenoid.svg",
           "colored": false,
           "type": "code"
         },
         {
           "title": "Skype",
           "src": "skype.svg",
-          "colored": true,
-          "type": "code"
-        },
-        {
-          "title": "Python",
-          "src": "python.svg",
           "colored": false,
           "type": "code"
         },
@@ -49,33 +37,27 @@
           "type": "code"
         },
         {
-          "title": "Skype",
-          "src": "skype.svg",
-          "colored": true,
-          "type": "code"
-        },
-        {
-          "title": "Python",
-          "src": "python.svg",
+          "title": "Gmail",
+          "src": "gmail.svg",
           "colored": false,
           "type": "code"
         },
         {
-          "title": "JUnit5",
-          "src": "JUnit5.svg",
-          "colored": true,
-          "type": "code"
-        },
-        {
-          "title": "Python",
-          "src": "python.svg",
+          "title": "AllureTestOps",
+          "src": "allureTestOps.svg",
           "colored": false,
           "type": "code"
         },
         {
-          "title": "JUnit5",
-          "src": "JUnit5.svg",
+          "title": "Selenide",
+          "src": "selenide.svg",
           "colored": true,
+          "type": "code"
+        },
+        {
+          "title": "Slack",
+          "src": "slack.svg",
+          "colored": false,
           "type": "code"
         }
       ]
@@ -84,29 +66,23 @@
       "Title": "Infrastructure",
       "Description": "text",
       "Fulltext": "text text text text text text\ntext\ntext\ntext",
-      "Image": "infrastructureQA.png",
+      "Image": "infrastructure.jpeg",
       "icons": [
         {
-          "title": "Java",
-          "src": "java.svg",
+          "title": "Appium",
+          "src": "appium.svg",
           "colored": false,
-          "type": "infrastructure"
-        },
-        {
-          "title": "Gradle",
-          "src": "gradle.svg",
-          "colored": true,
           "type": "infrastructure"
         },
         {
           "title": "Jenkins",
           "src": "jenkins.svg",
-          "colored": false,
+          "colored": true,
           "type": "infrastructure"
         },
         {
-          "title": "DockerCompose",
-          "src": "DockerCompose.svg",
+          "title": "Selenoid",
+          "src": "selenoid.svg",
           "colored": true,
           "type": "infrastructure"
         },
@@ -117,126 +93,96 @@
           "type": "infrastructure"
         },
         {
-          "title": "Python",
-          "src": "python.svg",
-          "colored": true,
-          "type": "infrastructure"
-        },
-        {
           "title": "JUnit5",
           "src": "JUnit5.svg",
           "colored": false,
           "type": "infrastructure"
         },
         {
-          "title": "Skype",
-          "src": "skype.svg",
-          "colored": true,
-          "type": "code"
-        },
-        {
-          "title": "Python",
-          "src": "python.svg",
+          "title": "Gmail",
+          "src": "gmail.svg",
           "colored": false,
-          "type": "code"
+          "type": "infrastructure"
         },
         {
-          "title": "JUnit5",
-          "src": "JUnit5.svg",
+          "title": "AllureTestOps",
+          "src": "allureTestOps.svg",
           "colored": true,
-          "type": "code"
+          "type": "infrastructure"
         },
         {
-          "title": "Python",
-          "src": "python.svg",
+          "title": "Selenide",
+          "src": "selenide.svg",
           "colored": false,
-          "type": "code"
+          "type": "infrastructure"
         },
         {
-          "title": "JUnit5",
-          "src": "JUnit5.svg",
-          "colored": true,
-          "type": "code"
+          "title": "Slack",
+          "src": "slack.svg",
+          "colored": false,
+          "type": "infrastructure"
         }
       ]
     },
     {
-      "Title": "Infrastructure",
+      "Title": "Tests notifications",
       "Description": "text",
       "Fulltext": "text text text text text text\ntext\ntext\ntext",
-      "Image": "infrastructureQA.png",
+      "Image": "notifications.jpeg",
       "icons": [
         {
-          "title": "Java",
-          "src": "java.svg",
+          "title": "Appium",
+          "src": "appium.svg",
           "colored": false,
-          "type": "infrastructure"
-        },
-        {
-          "title": "Gradle",
-          "src": "gradle.svg",
-          "colored": false,
-          "type": "infrastructure"
+          "type": "tests notifications"
         },
         {
           "title": "Jenkins",
           "src": "jenkins.svg",
-          "colored": true,
-          "type": "infrastructure"
-        },
-        {
-          "title": "DockerCompose",
-          "src": "DockerCompose.svg",
-          "colored": true,
-          "type": "infrastructure"
-        },
-        {
-          "title": "Skype",
-          "src": "skype.svg",
           "colored": false,
-          "type": "infrastructure"
+          "type": "tests notifications"
         },
         {
-          "title": "Python",
-          "src": "python.svg",
+          "title": "Selenoid",
+          "src": "selenoid.svg",
           "colored": false,
-          "type": "infrastructure"
-        },
-        {
-          "title": "JUnit5",
-          "src": "JUnit5.svg",
-          "colored": true,
-          "type": "infrastructure"
+          "type": "tests notifications"
         },
         {
           "title": "Skype",
           "src": "skype.svg",
           "colored": true,
-          "type": "code"
-        },
-        {
-          "title": "Python",
-          "src": "python.svg",
-          "colored": false,
-          "type": "code"
+          "type": "tests notifications"
         },
         {
           "title": "JUnit5",
           "src": "JUnit5.svg",
-          "colored": true,
-          "type": "code"
-        },
-        {
-          "title": "Python",
-          "src": "python.svg",
           "colored": false,
-          "type": "code"
+          "type": "tests notifications"
         },
         {
-          "title": "JUnit5",
-          "src": "JUnit5.svg",
+          "title": "Gmail",
+          "src": "gmail.svg",
           "colored": true,
-          "type": "code"
+          "type": "tests notifications"
+        },
+        {
+          "title": "AllureTestOps",
+          "src": "allureTestOps.svg",
+          "colored": false,
+          "type": "tests notifications"
+        },
+        {
+          "title": "Selenide",
+          "src": "selenide.svg",
+          "colored": false,
+          "type": "tests notifications"
+        },
+        {
+          "title": "Slack",
+          "src": "slack.svg",
+          "colored": true,
+          "type": "tests notifications"
         }
       ]
     }
