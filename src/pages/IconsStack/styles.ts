@@ -3,11 +3,11 @@ export const style = {
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
-    marginTop: "50px",
+    justifyContent: "center",
   },
   centeredIcons: {
     display: "grid",
-    gridTemplateColumns: "1fr 1fr 1fr",
+    gridTemplateColumns: "1fr 1fr 1fr 1fr 1fr 1fr",
     gridGap: "25px",
     border: "5px solid #8F82FF",
     padding: "22px",
@@ -27,6 +27,8 @@ export const style = {
   },
   sectionContainer: {
     height: "100vh",
+    display: "flex",
+    justifyContent: "center",
     overflowY: "auto",
   },
   stickyIcons: {

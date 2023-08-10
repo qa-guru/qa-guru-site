@@ -1,51 +1,63 @@
 {
   "pages": [
     {
-      "Title": "Code",
-      "Description": "Code in QA",
+      "Title": "Java QA Automation",
+      "Description": "Test automation course",
       "Fulltext": "Some testers write automation code to improve test efficiency and reduce the amount of manual work required, while others may be motivated by the desire to receive good compensation for working as automation engineers. Regardless of the reasons for writing automation code, it’s important to focus on producing high-quality, reliable, and maintainable code that adds value to the testing process.\n\n",
       "Image": "code.png",
       "icons": [
         {
-          "title": "Appium",
-          "src": "appium.svg",
+          "title": "Idea",
+          "src": "idea.svg",
           "colored": true,
           "type": "code"
         },
         {
-          "title": "Jenkins",
-          "src": "jenkins.svg",
-          "colored": false,
+          "title": "Java",
+          "src": "java.svg",
+          "colored": true,
           "type": "code"
         },
         {
-          "title": "Selenoid",
+          "title": "Gradle",
           "src": "selenoid.svg",
-          "colored": false,
-          "type": "code"
-        },
-        {
-          "title": "Skype",
-          "src": "skype.svg",
-          "colored": false,
+          "colored": true,
           "type": "code"
         },
         {
           "title": "JUnit5",
-          "src": "JUnit5.svg",
+          "src": "junit5.svg",
           "colored": true,
           "type": "code"
         },
         {
-          "title": "Gmail",
-          "src": "gmail.svg",
-          "colored": false,
+          "title": "Allure Reports",
+          "src": "allure_report.svg",
+          "colored": true,
           "type": "code"
         },
         {
-          "title": "Allure",
-          "src": "allureTestOps.svg",
-          "colored": false,
+          "title": "Allure TestOps",
+          "src": "allure_testops.svg",
+          "colored": true,
+          "type": "code"
+        },
+        {
+          "title": "Postman",
+          "src": "postman.svg",
+          "colored": true,
+          "type": "code"
+        },
+        {
+          "title": "Rest-assured",
+          "src": "rest-assured.svg",
+          "colored": true,
+          "type": "code"
+        },
+        {
+          "title": "Selenium",
+          "src": "selenium.svg",
+          "colored": true,
           "type": "code"
         },
         {
@@ -55,9 +67,123 @@
           "type": "code"
         },
         {
+          "title": "Appium",
+          "src": "appium.svg",
+          "colored": true,
+          "type": "code"
+        },
+        {
+          "title": "Appium",
+          "src": "appium.svg",
+          "colored": true,
+          "type": "code"
+        },
+        {
+          "title": "GitHub",
+          "src": "github.svg",
+          "colored": true,
+          "type": "code"
+        },
+        {
+          "title": "Jenkins",
+          "src": "jenkins.svg",
+          "colored": true,
+          "type": "code"
+        },
+        {
+          "title": "Docker",
+          "src": "docker.svg",
+          "colored": true,
+          "type": "code"
+        },
+        {
+          "title": "Selenoid",
+          "src": "selenium.svg",
+          "colored": true,
+          "type": "code"
+        },
+        {
+          "title": "Browserstack",
+          "src": "browserstack.svg",
+          "colored": true,
+          "type": "code"
+        },
+        {
+          "title": "Jira",
+          "src": "jira.svg",
+          "colored": true,
+          "type": "code"
+        },
+        {
+          "title": "Telegram",
+          "src": "telegram.svg",
+          "colored": true,
+          "type": "code"
+        },
+        {
           "title": "Slack",
           "src": "slack.svg",
-          "colored": false,
+          "colored": true,
+          "type": "code"
+        },
+        {
+          "title": "Discord",
+          "src": "discord.svg",
+          "colored": true,
+          "type": "code"
+        },
+        {
+          "title": "Mail",
+          "src": "gmail.svg",
+          "colored": true,
+          "type": "code"
+        },
+        {
+          "title": "Skype",
+          "src": "skype.svg",
+          "colored": true,
+          "type": "code"
+        },
+        {
+          "title": "Mattermost",
+          "src": "mattermost.svg",
+          "colored": true,
+          "type": "code"
+        },
+        {
+          "title": "Slack",
+          "src": "slack.svg",
+          "colored": true,
+          "type": "code"
+        },
+        {
+          "title": "Slack",
+          "src": "slack.svg",
+          "colored": true,
+          "type": "code"
+        },
+        {
+          "title": "Slack",
+          "src": "slack.svg",
+          "colored": true,
+          "type": "code"
+        },
+        {
+          "title": "Slack",
+          "src": "slack.svg",
+          "colored": true,
+          "type": "code"
+        },
+        {
+          "title": "Slack",
+          "src": "slack.svg",
+          "colored": true,
+          "type": "code"
+        },
+        {
+          "title": "Slack",
+          "src": "slack.svg",
+          "colored": true,
           "type": "code"
         }
       ]
