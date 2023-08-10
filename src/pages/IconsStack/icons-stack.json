@@ -2,8 +2,8 @@
   "pages": [
     {
       "Title": "Code",
-      "Description": "text",
-      "Fulltext": "text text text text text text\ntext\ntext\ntext",
+      "Description": "Code in QA",
+      "Fulltext": "Some testers write automation code to improve test efficiency and reduce the amount of manual work required, while others may be motivated by the desire to receive good compensation for working as automation engineers. Regardless of the reasons for writing automation code, it’s important to focus on producing high-quality, reliable, and maintainable code that adds value to the testing process.\n\n",
       "Image": "code.png",
       "icons": [
         {
@@ -64,8 +64,8 @@
     },
     {
       "Title": "Infrastructure",
-      "Description": "text",
-      "Fulltext": "text text text text text text\ntext\ntext\ntext",
+      "Description": "Infrastructure in QA",
+      "Fulltext": "QA infrastructure is the term we use to describe all the hardware, cloud services, networking, supporting software, and test application needed to develop, test, deploy and operate our systems. In fact, if you add office space, desks, computers, mobile phones, developer tools, DevOps tools and procedures, testing tools, and the required business processes and subject expertise, you'll see a much more granular infrastructure requirement. We will examine your systems' development and test infrastructure in all its diversity.",
       "Image": "infrastructure.jpeg",
       "icons": [
         {
@@ -126,8 +126,8 @@
     },
     {
       "Title": "Tests notifications",
-      "Description": "text",
-      "Fulltext": "text text text text text text\ntext\ntext\ntext",
+      "Description": "Tests notifications in QA",
+      "Fulltext": "Any experienced QA team will tell you: the hardest thing to test is normally notifications, for a seemingly inexhaustible list of reasons. The primary one being that even though the notifications go out through email, you’re often stopped from sending said email.\n\nThat’s because you can’t actually send a notification, as you don’t want users to receive something that’s not actually worth sending yet or which hasn’t been debugged.",
       "Image": "notifications.jpeg",
       "icons": [
         {

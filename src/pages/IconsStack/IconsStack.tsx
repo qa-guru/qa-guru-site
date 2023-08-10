@@ -48,10 +48,10 @@ const IconsStack: React.FC<IDataIconsStack> = ({ pages }) => {
                                                 src={require(`../../assets/pagesImg/${page.Image}`)}
                                                 alt={page.Title}
                                             />
-                                            <Typography variant="body2" color="text.secondary">
+                                            <Typography variant="h6">
                                                 {page.Description}
                                             </Typography>
-                                            <Typography variant="body2" color="text.secondary">
+                                            <Typography variant="body2" width="60%">
                                                 {page.Fulltext}
                                             </Typography>
                                         </CardContent>
