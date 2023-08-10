@@ -43,7 +43,7 @@
           "type": "code"
         },
         {
-          "title": "AllureTestOps",
+          "title": "Allure",
           "src": "allureTestOps.svg",
           "colored": false,
           "type": "code"
@@ -105,7 +105,7 @@
           "type": "infrastructure"
         },
         {
-          "title": "AllureTestOps",
+          "title": "Allure",
           "src": "allureTestOps.svg",
           "colored": true,
           "type": "infrastructure"
@@ -167,7 +167,7 @@
           "type": "tests notifications"
         },
         {
-          "title": "AllureTestOps",
+          "title": "Allure",
           "src": "allureTestOps.svg",
           "colored": false,
           "type": "tests notifications"

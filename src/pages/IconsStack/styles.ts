@@ -8,13 +8,14 @@ export const style = {
   centeredIcons: {
     display: "grid",
     gridTemplateColumns: "1fr 1fr 1fr",
-    gridGap: "10px",
+    gridGap: "25px",
     border: "5px solid #8F82FF",
-    padding: "15px",
-    borderRadius: "5px"
+    padding: "22px",
+    borderRadius: "5px",
   },
   iconWrapper: {
     display: "flex",
+    flexDirection: "column",
     justifyContent: "center",
     alignItems: "center",
     width: "50px",
