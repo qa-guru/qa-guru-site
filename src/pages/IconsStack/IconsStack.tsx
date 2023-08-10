@@ -9,7 +9,7 @@ const IconsStack: React.FC<IDataIconsStack> = ({ pages }) => {
   const renderIcons = (icons: IIcon[]) => (
     <Box sx={style.centeredIcons}>
       {icons.map((icon, i) => (
-        <Box key={i} style={style.iconWrapper}>
+        <Box key={i} sx={style.iconWrapper}>
           <img
             src={require(`./icons/${icon.src}`)}
             alt={icon.title}
@@ -37,6 +37,8 @@ const IconsStack: React.FC<IDataIconsStack> = ({ pages }) => {
       <Grid item xs={9}>
         <ReactFullpage
           licenseKey="9L28I-4PY27-P1KVJ-4EJ4J-JNNSP"
+          // @ts-ignore
+          credits={false}
           onLeave={(origin, destination, direction) => {
             setActivePage(destination.index);
           }}
