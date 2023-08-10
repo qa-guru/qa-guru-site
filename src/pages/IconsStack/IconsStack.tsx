@@ -6,8 +6,6 @@ import { style } from "./styles";
 
 const IconsStack: React.FC<IDataIconsStack> = ({ pages }) => {
     const [activePage, setActivePage] = useState(0);
-
-    // Отдельный компонент для рендера иконок на боковой панели
     const renderIcons = (icons: IIcon[]) => (
         <Box sx={style.centeredIcons}>
             {icons.map((icon, i) => (
@@ -26,12 +24,10 @@ const IconsStack: React.FC<IDataIconsStack> = ({ pages }) => {
 
     return (
         <Grid container sx={{ backgroundColor: "black" }}>
-            {/* Боковая панель с иконками */}
             <Grid item xs={3} sx={style.fixedIcons}>
                 {renderIcons(pages[activePage].icons)}
             </Grid>
 
-            {/* Основное содержимое с помощью ReactFullpage */}
             <Grid item xs={9}>
                 <ReactFullpage
                     credits="1"
