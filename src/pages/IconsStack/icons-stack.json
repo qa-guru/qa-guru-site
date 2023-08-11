@@ -220,7 +220,7 @@
         },
         {
           "title": "JUnit5",
-          "src": "JUnit5.svg",
+          "src": "junit5.svg",
           "colored": false,
           "type": "infrastructure"
         },
@@ -232,7 +232,7 @@
         },
         {
           "title": "Allure",
-          "src": "allureTestOps.svg",
+          "src": "allure_testops.svg",
           "colored": true,
           "type": "infrastructure"
         },
@@ -282,7 +282,7 @@
         },
         {
           "title": "JUnit5",
-          "src": "JUnit5.svg",
+          "src": "junit5.svg",
           "colored": false,
           "type": "tests notifications"
         },
@@ -294,7 +294,7 @@
         },
         {
           "title": "Allure",
-          "src": "allureTestOps.svg",
+          "src": "allure_testops.svg",
           "colored": false,
           "type": "tests notifications"
         },

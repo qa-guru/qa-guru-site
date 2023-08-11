@@ -18,8 +18,13 @@ const IconsStack: React.FC<IDataIconsStack> = ({ pages }) => {
             }}
           />
           <Typography
-            variant="caption"
-            style={{ textAlign: "center", marginTop: 5, color: "white" }}
+            style={{
+              fontSize: "10px",
+              textAlign: "center",
+              marginTop: 5,
+              color: "white",
+              whiteSpace: "nowrap",
+            }}
           >
             {icon.title}
           </Typography>
@@ -30,11 +35,11 @@ const IconsStack: React.FC<IDataIconsStack> = ({ pages }) => {
 
   return (
     <Grid container sx={{ backgroundColor: "black" }}>
-      <Grid item xs={3} sx={style.fixedIcons}>
+      <Grid item xs={4} sx={style.fixedIcons}>
         {renderIcons(pages[activePage].icons)}
       </Grid>
 
-      <Grid item xs={9}>
+      <Grid item xs={8}>
         <ReactFullpage
           licenseKey="9L28I-4PY27-P1KVJ-4EJ4J-JNNSP"
           // @ts-ignore
@@ -46,16 +51,16 @@ const IconsStack: React.FC<IDataIconsStack> = ({ pages }) => {
             <ReactFullpage.Wrapper>
               {pages.map((page, index) => (
                 <Box key={index} className="section">
-                  <Card style={style.centeredContent}>
+                  <Card sx={style.centeredContent}>
                     <CardContent>
-                      <Typography variant="h3" component="div">
-                        {page.Title}
-                      </Typography>
-                      <img
-                        style={style.imgMain}
-                        src={require(`../../assets/pagesImg/${page.Image}`)}
-                        alt={page.Title}
-                      />
+                      <Typography variant="h3">{page.Title}</Typography>
+                      <Box mt={5}>
+                        <img
+                          style={style.imgMain}
+                          src={require(`../../assets/pagesImg/${page.Image}`)}
+                          alt={page.Title}
+                        />
+                      </Box>
                       <Typography variant="h6">{page.Description}</Typography>
                       <Typography variant="body2" width="60%">
                         {page.Fulltext}
