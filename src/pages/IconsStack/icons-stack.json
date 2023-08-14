@@ -317,7 +317,7 @@
         {
           "title": "Docker",
           "src": "docker.svg",
-          "colored": true,
+          "colored": false,
           "type": "code"
         },
         {
@@ -385,37 +385,37 @@
         {
           "title": "Chrome",
           "src": "chrome.svg",
-          "colored": true,
+          "colored": false,
           "type": "code"
         },
         {
           "title": "FireFox",
           "src": "firefox.svg",
-          "colored": true,
+          "colored": false,
           "type": "code"
         },
         {
           "title": "Safari",
           "src": "slack.svg",
-          "colored": true,
+          "colored": false,
           "type": "code"
         },
         {
           "title": "Rest api",
           "src": "rest-api.svg",
-          "colored": true,
+          "colored": false,
           "type": "code"
         },
         {
           "title": "Android",
           "src": "android.svg",
-          "colored": true,
+          "colored": false,
           "type": "code"
         },
         {
           "title": "iOS",
           "src": "ios.svg",
-          "colored": true,
+          "colored": false,
           "type": "code"
         },
         {
@@ -645,67 +645,67 @@
         {
           "title": "Postman",
           "src": "postman.svg",
-          "colored": true,
+          "colored": false,
           "type": "code"
         },
         {
           "title": "Rest-assured",
           "src": "rest-assured.svg",
-          "colored": true,
+          "colored": false,
           "type": "code"
         },
         {
           "title": "Selenium",
           "src": "selenium.svg",
-          "colored": true,
+          "colored": false,
           "type": "code"
         },
         {
           "title": "Selenide",
           "src": "selenide.svg",
-          "colored": true,
+          "colored": false,
           "type": "code"
         },
         {
           "title": "Appium",
           "src": "appium.svg",
-          "colored": true,
+          "colored": false,
           "type": "code"
         },
         {
           "title": "Appium",
           "src": "appium.svg",
-          "colored": true,
+          "colored": false,
           "type": "code"
         },
         {
           "title": "GitHub",
           "src": "github.svg",
-          "colored": true,
+          "colored": false,
           "type": "code"
         },
         {
           "title": "Jenkins",
           "src": "jenkins.svg",
-          "colored": true,
+          "colored": false,
           "type": "code"
         },
         {
           "title": "Docker",
           "src": "docker.svg",
-          "colored": true,
+          "colored": false,
           "type": "code"
         },
         {
           "title": "Selenoid",
           "src": "selenoid.svg",
-          "colored": true,
+          "colored": false,
           "type": "code"
         },
         {
           "title": "Browserstack",
           "src": "browserstack.svg",
-          "colored": true,
+          "colored": false,
           "type": "code"
         },
         {

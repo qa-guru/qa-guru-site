@@ -9,12 +9,18 @@ const IconsStack: React.FC<IDataIconsStack> = ({ pages }) => {
   const renderIcons = (icons: IIcon[]) => (
     <Box sx={style.centeredIcons}>
       {icons.map((icon, i) => (
-        <Box key={i} sx={style.iconWrapper}>
+        <Box key={i} sx={style.iconWrapper}
+             style={{
+                 backgroundColor: icon.colored ? "#1f1e1e": "black",
+                 border: icon.colored ? "1px dashed gray" : "1px solid black"
+             }}
+        >
           <img
             src={require(`./icons/${icon.src}`)}
             alt={icon.title}
             style={{
-              filter: icon.colored ? "none" : "grayscale(100%)",
+                filter: icon.colored ? "none" : "grayscale(100%)",
+                opacity: icon.colored ? "100%" : "30%"
             }}
           />
           <Typography
@@ -22,7 +28,7 @@ const IconsStack: React.FC<IDataIconsStack> = ({ pages }) => {
               fontSize: "10px",
               textAlign: "center",
               marginTop: 5,
-              color: "white",
+              color: icon.colored ? "white" : "black",
               whiteSpace: "nowrap",
             }}
           >
