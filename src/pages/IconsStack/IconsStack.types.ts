@@ -15,4 +15,6 @@ export interface IPage {
 
 export interface IDataIconsStack {
   pages: IPage[];
+
+  scroll: "horizontal" | "vertical";
 }

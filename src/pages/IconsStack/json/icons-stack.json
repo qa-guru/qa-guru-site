@@ -1,6 +1,5 @@
 {
   "pages": [
-    [
       {
         "Title": "Java QA Automation",
         "Description": "Test automation course",
@@ -1128,9 +1127,7 @@
             "type": "code"
           }
         ]
-      }
-    ],
-    [
+      },
       {
         "Title": "Teachers",
         "Description": "Test automation course",
@@ -1883,6 +1880,5 @@
           }
         ]
       }
-    ]
   ]
 }

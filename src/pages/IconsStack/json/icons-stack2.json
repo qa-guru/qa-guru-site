@@ -1128,7 +1128,6 @@
         }
       ]
     },
-
     {
       "Title": "Teachers",
       "Description": "Test automation course",
@@ -1881,6 +1880,5 @@
         }
       ]
     }
-    
   ]
 }
